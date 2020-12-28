@@ -1,0 +1,25 @@
+extends ../layouts/common
+
+block content
+    img(src="./uploads/32e7e6b25f3518145049a3cbcef6c19b", alt="")
+    a(href="/new") new
+    form(action="/users/search" method="GET")
+        input(type="text" name="name")
+        button search
+    ol users
+        each user in users
+            li  
+                p Full Name
+                    span &nbsp;
+                    span= user.name
+                p ID:
+                    span &nbsp;
+                    span= user.id
+                a(href='/users/' + user.id) View
+    form(action="/users")
+        select(name="page")
+            option(value="1") 1
+            option(value="2") 2
+            option(value="3") 3
+            option(value="4") 4
+        button Go to page

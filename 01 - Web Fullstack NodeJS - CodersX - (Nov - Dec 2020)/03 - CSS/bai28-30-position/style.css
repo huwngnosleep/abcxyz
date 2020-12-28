@@ -1,0 +1,30 @@
+.container {
+    height: 100%;
+    width: 70%;
+    background-color: rgba(169, 212, 248, 0.274);
+    position: relative;
+    color: #ffffff;
+}
+.relative {
+    background-color: red;
+    position: relative;
+    top: 20px;
+    height: 50%;
+    width: 100px;
+}
+.fixed {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: fixed;
+    left: 20%;
+}
+.absolute {
+    position: absolute;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    right: 10px;
+    top: 10px;
+
+}

@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="newToDo-input" type="text">
+    <button onclick="addItem()">Add new task</button>
+    <ul id="todo-list">
+    </ul>
+
+    <script type="text/javascript">
+        var todoListKey = 'todoList';
+        if (localStorage.getItem(todoListKey)) {
+            var newTodo = JSON.parse(localStorage.getItem(todoListKey));
+        } else {
+            var newTodo = [];
+        }
+        render(newTodo);
+        var delButton = document.getElementById('del-button');
+        delButton.addEventListener('click', delItem) 
+        function delItem(){
+            var button = event.target;
+            var id = button.dataset.id;
+            newTodo.splice(id, 1);
+            
+            localStorage.setItem(todoListKey, JSON.stringify(newTodo));
+            render();
+        }
+
+        function addItem () {
+            var input = document.getElementById('newToDo-input');
+            var newTask = input.value;
+            newTodo.push(newTask);
+            render();
+            input.value = '';
+            localStorage.setItem(todoListKey, JSON.stringify(newTodo));
+        }
+        function render () {
+            var content = ''
+            content = newTodo.map(function (item, index) {
+                return '<li>' + item + '  <button data-id="' + index + '" id="del-button">Delete</button></li>' 
+            });
+            var toDoList = document.getElementById('todo-list');
+            toDoList.innerHTML = content.join('');
+        }
+    </script>
+</body>
+</html>

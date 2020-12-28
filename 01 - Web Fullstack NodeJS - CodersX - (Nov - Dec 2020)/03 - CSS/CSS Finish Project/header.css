@@ -1,0 +1,26 @@
+.header .title {
+    position: absolute;
+    left: 10%;
+    align-self: center;
+    font-size: 2rem;
+}
+
+.header .menu-bar {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 10%;
+    align-self: center;
+    font-size: 1.2rem;
+    justify-content: space-around;
+}
+
+.header .menu-bar a {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.header a:hover {
+    background-color: rgb(231, 253, 107);
+    transition: all 0.5s;
+}

@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h2>X.addItemListener('event', function name)</h2>
+    <input id="newToDo-input" type="text">
+    <button id="addButton">Add new task</button>
+    <ul id="todo-list">
+    </ul>
+
+    <script type="text/javascript">
+        var newTodo = [
+            'Take shower',
+            'Have a walk',
+            'Go to bed'
+        ];
+        
+        var addButton = document.getElementById('addButton');
+        addButton.addEventListener('click', addItem)
+
+        function addItem () {
+            var input = document.getElementById('newToDo-input');
+            var newTask = input.value;
+            newTodo.push(newTask);
+            render();
+            input.value = '';
+        }
+        render();
+        function render () {
+            var content = ''
+            content = newTodo.map(function (item) {
+                return '<li>' + item +'</li>' 
+            });
+            var toDoList = document.getElementById('todo-list');
+            toDoList.innerHTML = content.join('');
+        }
+    </script>
+</body>
+</html>

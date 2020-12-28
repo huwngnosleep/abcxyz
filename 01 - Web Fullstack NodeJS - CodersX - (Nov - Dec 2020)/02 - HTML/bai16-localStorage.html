@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>localStorage.setItem('key', 'value') <br> .getItem('key') <br> .remove('key')</h2>
+
+    <input id="newToDo-input" type="text">
+    <button onclick="addItem()">Add new task</button>
+    <ul id="todo-list">
+    </ul>
+
+    <script type="text/javascript">
+        var todoListKey = 'todoList';
+        if (localStorage.getItem(todoListKey)) {
+            var newTodo = JSON.parse(localStorage.getItem(todoListKey));
+        } else {
+            var newTodo = [];
+        }
+
+        function addItem () {
+            var input = document.getElementById('newToDo-input');
+            var newTask = input.value;
+            newTodo.push(newTask);
+            render();
+            input.value = '';
+            localStorage.setItem(todoListKey, JSON.stringify(newTodo));
+        }
+        render();
+        function render () {
+            var content = ''
+            content = newTodo.map(function (item) {
+                return '<li>' + item +'</li>' 
+            });
+            var toDoList = document.getElementById('todo-list');
+            toDoList.innerHTML = content.join('');
+        }
+    </script>
+</body>
+</html>

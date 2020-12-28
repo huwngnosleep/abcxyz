@@ -1,0 +1,10 @@
+extends ./layouts/common
+
+block header
+    .container.text-center
+        h2 Students Manager App by ThanhHung
+        h4 Please sign up for first use
+block content
+    #container.container
+        a.p-3.m-1.border.border-primary.rounded(href='/login') Log in
+        a.p-3.m-1.border.border-primary.rounded(href='/signup') Sign up

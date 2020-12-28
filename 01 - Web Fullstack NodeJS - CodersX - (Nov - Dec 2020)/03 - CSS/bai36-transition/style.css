@@ -1,0 +1,24 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.player {
+    height: 100px;
+    width: 100px;
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0301%2F0065%2Ffiles%2Ffall_background_image_landscape_tree_lake_mountain_scene_web_2048x2048.jpg%3F16615717205281063826&f=1&nofb=1);
+    background-size: contain;
+}
+img {
+    transform: scale(0.3);
+    opacity: 0;
+    
+}
+
+.overlay:hover {
+    background-color: rgba(5, 3, 0, 0.212);
+    transition: all 0.3s;
+}
+.overlay:hover img{
+    transform: scale(0.5);
+    transition: all 0.3s;
+    opacity: 1;
+}

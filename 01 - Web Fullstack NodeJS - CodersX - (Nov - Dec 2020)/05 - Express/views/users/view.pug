@@ -1,0 +1,19 @@
+extends ../layouts/common
+
+block content
+    h1 view user
+    ul  
+        li
+            img(src= user.avatar )
+        li Full Name: 
+            span= user.name
+        li ID: 
+            span= user.id
+        li Gender: 
+            span= user.gender 
+        li Birthday: 
+            span= user.birthday
+        li Email: 
+            span= user.email
+        li Phone: 
+            span= user.phone

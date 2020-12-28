@@ -1,0 +1,15 @@
+extends ../layouts/common
+
+block content
+    if errors
+        each error in errors
+            .alert.alert-danger= error
+
+    form(action="/users/new" method="POST" enctype="multipart/form-data")
+        label(for="name") Name
+        input(type="text" name="name" placeholder="Enter student name" value=input ? input.name : "") 
+        label(for="id") ID
+        input(type="text" name="id" placeholder="Enter student ID" value=input ? input.id : "")
+        label(for="avatar") Avatar
+        input(type="file" name="avatar")
+        button Add new student

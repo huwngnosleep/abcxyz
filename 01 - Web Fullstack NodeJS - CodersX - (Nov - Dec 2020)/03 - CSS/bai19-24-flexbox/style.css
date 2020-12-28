@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgba(153, 72, 72, 0.74);
+    height: 200px;
+}
+.box {
+    padding: 15px;
+}

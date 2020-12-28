@@ -1,0 +1,43 @@
+extends ../layouts/common
+
+block content
+    if errors
+        each error in errors
+            .alert.alert-danger= error
+
+    #container-form.container
+        h2 Add new student
+        form(action="/users/new" method="POST" enctype="multipart/form-data")
+            .form-group
+                label(for="name") Name
+                input.form-control(type="text" name="name" placeholder="Enter student name" value=input ? input.name : "") 
+            .form-group
+                label(for="id") ID
+                input.form-control(type="text" name="id" placeholder="Enter student ID" value=input ? input.id : "")
+            .form-group
+                label(for="id") Gender
+                input.form-control(type="text" name="gender" placeholder="Male/Female" value=input ? input.id : "")
+            .form-group
+                label(for="id") Birthday
+                input.form-control(type="text" name="birthday" placeholder="mm/dd/yyyy" value=input ? input.id : "")
+            .form-group
+                label(for="id") Address
+                input.form-control(type="text" name="id" placeholder="Address" value=input ? input.id : "")
+            .form-group
+                label(for="id") Nation
+                input.form-control(type="text" name="id" placeholder="Viet Nam" value=input ? input.id : "")
+            .form-group
+                label(for="id") Major
+                input.form-control(type="text" name="id" placeholder="Major" value=input ? input.id : "")
+            .form-group
+                label(for="id") Phone
+                input.form-control(type="text" name="id" placeholder="Phone Number" value=input ? input.id : "")
+            .form-group
+                label(for="id") Email
+                input.form-control(type="text" name="id" placeholder="Email" value=input ? input.id : "")
+            .form-group
+                label(for="avatar") Avatar
+                input.form-control(type="file" name="avatar")
+            button.btn.btn-primary.mt-2 Add new student
+
+    

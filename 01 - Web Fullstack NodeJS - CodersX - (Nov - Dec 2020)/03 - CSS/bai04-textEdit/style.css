@@ -1,0 +1,28 @@
+li {
+    font-size: 20px;
+    line-height: 40px;
+}
+.text-align {
+    text-align: center;
+}
+.text-decor {
+    text-decoration: underline;
+}
+.text-transform {
+    text-transform: capitalize;
+}
+.text-indent {
+    text-indent: 40px;
+}
+.letter-spacing {
+    letter-spacing: 20px;
+}
+.word-spacing {
+    word-spacing: 20px;
+}
+.line_height {
+    line-height: 20px;
+}
+.text-shadow {
+    text-shadow: 1px 1px rgb(255, 0, 0) 20;
+}

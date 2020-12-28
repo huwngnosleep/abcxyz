@@ -1,0 +1,33 @@
+extends ../layouts/common
+
+block content
+    h1.text-center Student Profile
+    #container.container
+        .row.text-center
+            .col-md-auto.d-flex.flex-column.justify-content-center.align-items-center
+                img(src= user.avatar, alt="avatar")
+                button.btn.btn-block.mt-2
+                    a(href="#") Edit Avatar
+            .col-md-auto.d-flex
+                ul.list-group
+                    li.list-group-item Full Name: 
+                    li.list-group-item ID: 
+                    li.list-group-item Gender: 
+                    li.list-group-item Birthday: 
+                    li.list-group-item Address: 
+                    li.list-group-item Nation: 
+                    li.list-group-item Major: 
+                    li.list-group-item Phone: 
+                    li.list-group-item Email: 
+                ul.list-group
+                    li.list-group-item= user.name
+                    li.list-group-item= user.id
+                    li.list-group-item= user.gender
+                    li.list-group-item= user.birthday
+                    li.list-group-item= user.address
+                    li.list-group-item= user.nation
+                    li.list-group-item= user.major
+                    li.list-group-item= user.phone
+                    li.list-group-item= user.email
+                    button.btn.btn-block.mt-2
+                        a(href="#") Edit Info

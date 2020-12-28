@@ -1,0 +1,19 @@
+div {
+    background-color: turquoise;
+}
+li {
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+}
+.list-item {
+    background-color: rgb(14, 46, 116);
+}
+.transparent {
+    background-color: transparent;
+}
+.gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,37,52,1) 39%, rgba(0,212,255,1) 100%);
+}

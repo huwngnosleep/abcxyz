@@ -1,0 +1,26 @@
+.hot-album {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.album-cover {
+
+    height: 70px;
+    width: 70px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.tvxCJA1_yps0vbD9gNQfnwHaHa%26pid%3DApi&f=1);
+
+
+}
+.album-cover .over-lay {
+    background: linear-gradient(0deg, rgba(0,0,0,0.8494748241093313) 19%, rgba(255,255,255,0) 75%);
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: flex-end;
+
+}

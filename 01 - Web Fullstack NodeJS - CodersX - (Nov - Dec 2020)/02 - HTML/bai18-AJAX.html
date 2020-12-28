@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>run JSON server
+        <br> axios.get method
+    </h2>
+    <input id="newToDo-input" type="text">
+    <button onclick="addItem()">Add new task</button>
+    <ul id="todo-list">
+    </ul>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript">
+        const url = 'http://localhost:3000/todo'
+        axios.get(url)
+            .then(function (response) {
+                // handle success
+                var data = response.data;
+                render(data);
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+            .then(function () {
+                // always executed
+            });
+        function addItem () {
+            var input = document.getElementById('newToDo-input');
+            var newTask = input.value;
+            newTodo.push(newTask);
+            render();
+            input.value = '';
+        
+        }
+        
+        function render (newTodo) {
+            var content = ''
+            content = newTodo.map(function (item) {
+                return '<li>' + item.content +'</li>' 
+            });
+            var toDoList = document.getElementById('todo-list');
+            toDoList.innerHTML = content.join('');
+        }
+    </script>
+</body>
+</html>

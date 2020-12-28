@@ -1,0 +1,29 @@
+
+.weekly-zingchart {
+    display: flex;
+    border-bottom: 1px solid #777;
+    width: 30%;
+    justify-content: right;
+    align-items: center;
+}
+.position {
+    font-size: 20px;
+    color: black;
+    padding: 10px 5px;
+}
+.song-info {
+    padding: 0 10px;
+    flex-grow: 1;
+}
+.view {
+
+}
+.song-title {
+    padding-top: 5px;
+    font-size: 18px;
+}
+.singer {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #777;
+}

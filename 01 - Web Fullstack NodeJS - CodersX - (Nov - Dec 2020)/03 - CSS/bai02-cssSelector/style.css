@@ -1,0 +1,8 @@
+p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(66, 4, 4);
+}
+h1, p {
+    text-align: left;
+}

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    background-color: antiquewhite; 
+}
+
+.item {
+    background-color: rgb(150, 100, 34);
+    padding: 15px;
+    height: 20%;
+    margin: 15px;
+}
+
+@media (max-width:600px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

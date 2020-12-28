@@ -1,0 +1,1 @@
+class="img-responsive" --- ảnh sẽ tự động fit vào các góc

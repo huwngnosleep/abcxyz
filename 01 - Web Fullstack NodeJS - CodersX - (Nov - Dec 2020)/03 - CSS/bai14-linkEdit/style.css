@@ -1,0 +1,21 @@
+.default-link {
+    color: #FFF;
+    background-color: rgba(49, 62, 238, 0.801);
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+a:link {
+
+}
+a:visited {
+
+}
+.button-link:hover {
+    background-color:  rgba(49, 62, 238, 1);    
+
+}
+a:active {
+
+}

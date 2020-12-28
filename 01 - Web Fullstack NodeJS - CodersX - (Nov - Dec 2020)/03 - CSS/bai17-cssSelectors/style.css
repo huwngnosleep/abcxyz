@@ -1,0 +1,18 @@
+.css {
+    font-size: 30px;
+}
+li {
+    font-size: 20px;
+}
+.list-1  .item {
+    color: red;
+}
+.list-1 > .item {
+    border: 1px solid #333333;
+}
+.list-1 .item-1 + .item {
+    color: green;
+}
+.list-1 ~ .list {
+    color: greenyellow;
+} 

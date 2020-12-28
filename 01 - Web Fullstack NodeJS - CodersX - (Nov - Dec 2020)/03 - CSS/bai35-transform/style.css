@@ -1,0 +1,12 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+}
+.box1:hover {
+    transform: translate(10px, 10px);
+}
+.box2:hover {
+    transform: scale(0.5);
+}

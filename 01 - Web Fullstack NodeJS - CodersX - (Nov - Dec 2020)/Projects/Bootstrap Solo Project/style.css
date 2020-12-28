@@ -1,0 +1,125 @@
+:root {
+    --main-red: #b74f35;
+    --main-orange: #ffb81c;
+    --main-yellow: #ffe767;
+    --main-yellow-opa: #ffe76780;
+    --main-white: #f7f6f3;
+}
+
+.container-fluid {
+    background-color: var(--main-white);
+}
+
+img {
+    max-width: 100% !important;
+}
+
+/* header */
+#header {
+    background-color: var(--main-yellow);
+}
+
+#header #banner {
+    padding-top: 0.9rem;
+}
+#header #logo {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+}
+
+
+#header .navbar, #header .navbar .container-fluid {
+    background-color: var(--main-yellow) !important;
+}
+
+#header #nav-item {
+    margin-right: 1rem;
+    background-color: inherit;
+    border: inherit;
+}
+
+#header #nav-item:hover {
+    background-color: var(--main-orange);
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+/* welcome */
+#welcome {
+    border-bottom: 1px !important;
+}
+
+#welcome .row {
+    position: relative;
+    top: 40%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 586px) {
+    #welcome, 
+    #plans,
+    #contact {
+        max-height: 50%;
+    }
+    #header #banner {
+        display: block;
+        width: 100% !important;
+    }
+    #header .navbar {
+        display: none;
+        flex-direction: row !important;
+    }
+    #welcome {
+        height: 50% !important;
+    }
+    #projects {
+        position: relative;
+        bottom: 3rem;
+    }
+
+    #boundary {
+        display: none;
+    }
+}
+
+/* projects */
+#projects #title {
+    display: block;
+    height: 10%;
+}
+#projects .row {
+    margin-bottom: 2rem;
+}
+
+#projects-item {
+    margin-bottom: 2rem;
+}
+
+/* plans */
+#plans #title {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* contact */
+#contact #social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact #social-media .btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+
+}

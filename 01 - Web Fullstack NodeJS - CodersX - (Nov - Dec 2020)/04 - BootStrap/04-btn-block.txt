@@ -1,0 +1,3 @@
+bình thường button chỉ dài bằng cái content bên trong nó
+nhưng nếu thêm class btn-block thì chiều dài của button sẽ kéo dài ra hết sức có thể
+

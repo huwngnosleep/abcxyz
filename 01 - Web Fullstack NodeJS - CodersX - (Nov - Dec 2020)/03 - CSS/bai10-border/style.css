@@ -1,0 +1,7 @@
+.list-item {
+    padding: 15px;
+    color: red;
+    margin-bottom: 10px;
+    border: 2px solid rgb(2, 63, 121);
+    border-radius: 5px;
+}
