@@ -1,0 +1,8 @@
+find a random number from 1 to 15
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+the computer will tell each time if your guess is high or low
+the best way is to start at 8
+so the number is left or right 8
+and reduce the numbers by half
+keep going and eliminating half of the array each time
+so that's Binary Search
