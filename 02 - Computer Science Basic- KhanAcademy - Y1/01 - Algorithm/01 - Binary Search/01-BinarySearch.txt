@@ -6,3 +6,7 @@ so the number is left or right 8
 and reduce the numbers by half
 keep going and eliminating half of the array each time
 so that's Binary Search
+
+if the array length's 8, we need at most 4 guess
+length 16 then 5 guess
+length n so we need log2(n) + 1 guess to find the target value

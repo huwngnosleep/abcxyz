@@ -1,0 +1,15 @@
+suppose the growth rate of an algorithm is a function 
+y = 6n^2 + 100n + 300
+the 6n^2 is much more larger than the remaining terms, 100n + 300
+
+...image 1
+
+reduce the coefficient of n^2 by 10 and increase the other two by 10
+so we have function 0.6n^2 + 1000n + 3000
+
+... image 2
+
+as you've seen, the two charts don't change much
+
+so that we can drop the less significant terms
+Just focus on the important part
