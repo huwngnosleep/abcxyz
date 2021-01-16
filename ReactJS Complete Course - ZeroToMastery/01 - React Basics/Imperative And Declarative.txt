@@ -1,0 +1,5 @@
+khác với AngularJS, React sử dụng Declarative để đưa ra một blueprint cho ReactDOM
+ReactDOM sẽ tính toán trong VirtualDOM để render ra các component trong real DOM
+còn ở AngularJS, là sử dụng Imparative để trực tiếp render ra component ở trong DOM
+
+Dataflow trong React là một chiều
