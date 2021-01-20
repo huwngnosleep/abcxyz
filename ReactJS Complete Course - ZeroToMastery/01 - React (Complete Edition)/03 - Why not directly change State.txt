@@ -1,0 +1,2 @@
+React chỉ nhận được thay đổi qua method setState, nên thay đổi kiểu như this.state.string='....' React sẽ không biết để mà rerender
+Và còn ảnh hưởng đến dataflow (như nào thì không biết)

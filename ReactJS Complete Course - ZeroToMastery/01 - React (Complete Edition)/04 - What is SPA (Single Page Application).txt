@@ -1,0 +1,3 @@
+các trang web ngày xưa mỗi lần gọi API từ server là phải rerender lại toàn bộ
+
+còn với SPA thì khi giao tiếp với server chỉ là truyền đi data chứ không truyền cả file HTML

@@ -1,0 +1,3 @@
+khi render một cái list nên cho thêm prop là "key" vào 
+để khi có thay đổi, React sẽ biết chính xác vị trí của thay đổi
+để mà chỉ render tại đó. Sẽ giúp load nhanh hơn 
