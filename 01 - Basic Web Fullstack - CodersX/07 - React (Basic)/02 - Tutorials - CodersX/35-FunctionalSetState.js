@@ -11,4 +11,5 @@ increase() {
 // để biến cái setState thành đồng bộ thì dùng một cái function làm param như sau
 increase() {
     this.setState(state => {value: state.value + 1});
+    this.setState(state => {value: state.value + 1});
 }

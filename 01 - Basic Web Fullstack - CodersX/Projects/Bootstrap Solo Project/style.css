@@ -14,6 +14,15 @@ img {
     max-width: 100% !important;
 }
 
+.container {
+    max-width: 800px !important;
+}
+
+#welcome::before, #projects::before, #contact::before {
+    height: 200px !important;
+    width: 100% !important;
+}
+
 /* header */
 #header {
     background-color: var(--main-yellow);
@@ -94,6 +103,11 @@ img {
 
 #projects-item {
     margin-bottom: 2rem;
+}
+
+.card-img {
+    height: 300px !important;
+    width: 600px !important;
 }
 
 /* plans */
