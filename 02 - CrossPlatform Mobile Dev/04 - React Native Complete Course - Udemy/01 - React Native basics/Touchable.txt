@@ -1,0 +1,2 @@
+một custom component (vd: <CustomComponent />) không có attribute onPress
+để cho nó press được thì phải bọc nó ngoài một cái component là <Touchable>

@@ -1,0 +1,3 @@
+không thể style trực tiếp cho <Text> mà phải cho nó vào trong <View> rồi style
+
+<View><Text></Text ></View>

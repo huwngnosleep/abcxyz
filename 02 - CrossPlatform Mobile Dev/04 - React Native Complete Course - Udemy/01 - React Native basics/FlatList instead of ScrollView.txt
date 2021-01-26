@@ -1,0 +1,2 @@
+dùng FlatList thì scroll tới item nào mới render ra item đấy
+còn ScrollView sẽ render hết kể cả hàng nghìn cái

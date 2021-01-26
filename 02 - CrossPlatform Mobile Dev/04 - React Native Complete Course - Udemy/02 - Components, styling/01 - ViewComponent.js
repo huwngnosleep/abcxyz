@@ -1,0 +1,1 @@
+<View> mặc định display là flex, direction là column

@@ -1,0 +1,4 @@
+thay vì dùng Pagination, thì có thể toggle một cái component bằng <Model>
+model có attribute visible để toggle
+<Model visible={boolean} ... />
+ngoài ra có thể style mỗi khi bật tắt cái model bằng attribute, tra docs
