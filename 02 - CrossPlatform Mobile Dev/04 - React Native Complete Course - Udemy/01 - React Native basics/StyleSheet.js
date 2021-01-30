@@ -1,9 +1,5 @@
-return(
-    <View >
-        <Image styles={styles.categoryImage} />
-    </View>
-)
-
+// phải dùng cái stylesheet thay vì object bình thường để react-native chuyển về style của native
+// chứ không phải là css như web
 // dùng constructor tạo style
 // truyền vào trong style một cái object
 const styles = StyleSheet.create({

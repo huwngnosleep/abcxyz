@@ -1,2 +1,10 @@
 dùng FlatList thì scroll tới item nào mới render ra item đấy
 còn ScrollView sẽ render hết kể cả hàng nghìn cái
+
+ <FlatList 
+	data={categories}   
+	// truyền cả cái object item vào làm props rồi hiển thị nó ở trong component con
+                renderItem={({item}) => <CategoryListItem category={item} />}
+                // và thêm một cái key để làm gì thì chưa biết
+                keyExtractor={item => item.id}
+            />
