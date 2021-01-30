@@ -1,10 +1,13 @@
-// dùng hàm require
+// local image thì dùng hàm require
 <View style={styles.imageContainer}>
     <Image
         style={styles.image} 
         source={require('../assets/success.png')} 
     />
 </View>
+
+// network image thì truyền vào một cái object
+source={{uri: 'url'}} 
 
 // style
 imageContainer: {
