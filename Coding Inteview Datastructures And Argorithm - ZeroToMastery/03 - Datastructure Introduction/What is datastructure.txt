@@ -1,0 +1,11 @@
+// để lưu data, computer dùng hai cái là RAM và Storage
+// data trong RAM sẽ mất, còn Storage thì không
+// vậy tại sao lại không lưu trong Storage mà thêm cái RAM làm gì?
+
+// lí do là vì cái RAM có thể hiểu như một cái kệ sách, mỗi ngăn là một address
+// mỗi address chứa được 1 byte dữ liệu
+// và các address đấy nối trực tiếp với RAM nên việc truy cập vào sẽ nhanh hơn trong storage rất nhiều
+// đó là lí do mà tên của nó là Random Access Memory
+
+// và mỗi data structure có các ưu nhược điểm khác nhau
+// thế nên phải có nhiều loại data structure (google cái cheatsheet)
