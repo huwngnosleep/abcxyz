@@ -1,0 +1,1 @@
+cũng giống tree nhưng ưu tiên giá trị lớn nhất ở trên, thường dùng cho comparation

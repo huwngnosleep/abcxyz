@@ -1,0 +1,9 @@
+linked list has both advantages of hash table and array
+- fast insert
+- fast delete
+- ordered
+- flexible size (unlike array, linked list prepends without create new list)
+
+* negatives:
+- more memory (use object as node)
+- slow lookup (traverse through each node)

@@ -1,0 +1,3 @@
+hash table giúp access data nhanh hơn
+và sử dụng index chính xác thay vì chỉ 0, 1, 2,... như array
+tuy nhiên hash table lại cho data vào address ngẫu nhiên chứ không phải chính xác index như array

@@ -1,0 +1,4 @@
+khi hai key có cùng một value, thì sẽ xảy ra hash collision
+hash collision sẽ khiến việc truy xuất data khó khăn hơn (O(1) -> O(n))
+có nhiều cách để solve cái vấn đề này,
+phổ biến là link list

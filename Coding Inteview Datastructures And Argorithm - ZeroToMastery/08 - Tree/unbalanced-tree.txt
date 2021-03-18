@@ -1,0 +1,3 @@
+để giải quyết tình trạng unbalanced tree thì đã sinh ra hai loại: AVL tree và Red/Black tree
+đại khái là nếu liên tiếp có 3 node cùng về một hướng, tự cái tree sẽ túm node ở giữa lại 
+rồi lấy nó làm parent cho hai cái node kia

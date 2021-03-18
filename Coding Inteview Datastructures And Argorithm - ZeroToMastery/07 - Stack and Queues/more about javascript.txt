@@ -1,0 +1,8 @@
+tại sao lại gọi javasript là single-thread?
+vì javascript chỉ có một call stack
+
+stack overflow
+khi stack có quá nhiều function được gọi, tới khi full memory heap thì gọi là stack overflow
+ex: func foo() {
+    foo()
+}

@@ -1,16 +1,29 @@
 function pickingNumbers(arr) {
     // Write your code here
-    var length = 0, maxLength = 0;
-    var sortArr = arr.sort(function(a, b){
-        return a - b;
-    })
-    for (var i = 0, l = arr.length; i < l; i++) {
-        if ((arr[i+1] - arr[i]) <= 1) {
-            length += 1;
-            if (maxLength < length) {maxLength = length}
-        } else { length = 0;
+    const sum = {}
+    for(const element of arr) {
+        if(sum[element] === undefined) {
+            sum[element] = 1 
+        } else {
+            sum[element] = sum[element] + 1
+        }
+    }
+    let max = 0
+    for(const key in sum) {
+        for(const element of arr) {
+            if(sum[element] + sum[element + 1] > max) {
+                max = sum[element] + sum[element + 1]
+            }
+        }
+    }
+    for(const key in sum) {
+        if(sum[key] === arr.length ||  sum[key] === arr.length / 2) {
+            if(max > sum[key]) {
+                return max
+            }
+            return sum[key]
         }
         
     }
-    return maxLength
+    return max
 }

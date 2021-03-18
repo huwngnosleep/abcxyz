@@ -1,0 +1,3 @@
+Hash table dùng một cái gọi là hash function để lấy dữ liệu
+mỗi key sẽ đi qua hash function để lấy được value trùng với nó
+đúng với nguyên tắc của hàm, mỗi key sẽ ra một value duy nhất

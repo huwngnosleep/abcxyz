@@ -1,0 +1,9 @@
+sign in cũng lên firebase đọc documents
+
+trong action, cái resData của sign in có một props là error
+chọc vào error.message rồi throw nó ra ở screen
+
+if(!response.ok) {
+    const resData = await response.json()
+    throw new Error(resData.error.message)
+}

@@ -1,0 +1,6 @@
+mặc định mấy cái trong asset là lưu trên cloud, app chạy thì sẽ tải về
+do đó nếu offline thì sẽ không load được
+có thể config trong app.json
+"assetBundlePatterns": [
+      "**/*"
+]

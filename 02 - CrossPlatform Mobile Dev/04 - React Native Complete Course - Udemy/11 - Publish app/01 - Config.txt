@@ -1,0 +1,3 @@
+// app.json
+slug: url trên expo cloud
+privacy: cho user khác xem hay không
