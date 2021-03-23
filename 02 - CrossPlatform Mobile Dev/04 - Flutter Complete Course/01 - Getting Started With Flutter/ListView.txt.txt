@@ -1,0 +1,2 @@
+ListView(children: []) - giống với scrollview, vẫn lưu các widget không nhìn thấy
+ListView.builder() - giống flatlist, chỉ render ra các widget visible

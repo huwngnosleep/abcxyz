@@ -1,0 +1,1 @@
+// khi muốn widget nào tự co lại khi nó quá to thì dùng FittedBox

@@ -1,0 +1,2 @@
+context là để giúp widget xác định được vị trí của nó cũng như những cái xung quanh trong widget tree
+context của mọi widget đều có communication với nhau

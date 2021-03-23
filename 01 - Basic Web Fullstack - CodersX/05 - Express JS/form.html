@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- action có nghĩa là sẽ submit form ở đâu
+    nếu để trống thì mặc định là vào url hiện tại chứa cái form -->
+    <form action="/home" method="">
+        <div>
+            <label for="form-input"></label>
+            <input type="text" id="form-input" name="q">
+            <input type="text" name="name">
+            <input type="text" name="age">
+        </div>
+        <!-- khi submit form, tất cả các input sẽ được gửi lên query dưới dạng là các biến 
+        khi submit thanh url sẽ có dạng ?q=...%name=...%age=... -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- submit form với post method thì các input sẽ không được đính trên url
+    có nghĩa là không phải query parameter
+    vì chỉ query parameter mới được đính lên url
+    input của form với post method sẽ được gửi ngầm đi dưới dạng form data -->
+</body>
+</html>

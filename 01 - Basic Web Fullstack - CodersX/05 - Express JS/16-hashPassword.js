@@ -1,0 +1,1 @@
+// dùng md5 để hash password trước khi lưu vào database

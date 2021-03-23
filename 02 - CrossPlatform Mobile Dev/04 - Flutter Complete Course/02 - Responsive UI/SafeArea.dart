@@ -1,0 +1,1 @@
+// safe area là một vùng mà mọi tính toán chiều dài chiều rộng đều không tính đến nó

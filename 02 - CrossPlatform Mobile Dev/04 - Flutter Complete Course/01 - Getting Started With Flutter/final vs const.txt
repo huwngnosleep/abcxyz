@@ -1,0 +1,7 @@
+const thì từ ngay khi chạy code là trong ram đã có cái biến đấy rồi
+còn final thì phải chạy constructor mới có biến
+
+const arr = const []
+
+vì trong Dart mọi thứ đều là object, nên đặt const trước value sẽ khiến cái biến đó không thể thay đổi
+ví dụ như thêm hay bớt phần tử của array

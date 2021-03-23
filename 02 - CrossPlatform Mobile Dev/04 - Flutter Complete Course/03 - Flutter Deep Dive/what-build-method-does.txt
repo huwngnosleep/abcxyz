@@ -1,0 +1,4 @@
+flutter sẽ tự tìm xem có widget nào chưa được render không rồi render nó ra màn hình
+có hai thứ trigger build method
+- đầu tiên là setState
+- thứ hai là bất kì thay đổi nào xảy ra ( ví dụ như khi xoay màn hình thì MediaQuery.orientation sẽ bị thay đổi => rebuild)
