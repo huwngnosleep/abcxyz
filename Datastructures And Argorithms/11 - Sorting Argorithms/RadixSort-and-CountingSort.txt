@@ -1,0 +1,3 @@
+Radix Sort và Counting Sort có thể cho tốc độ nhanh hơn bình thường rất nhiều
+vì không sử dụng cơ chế so sánh mà chuyển qua dạng nhị phân
+tuy nhiên sẽ rất bị giới hạn với data type
