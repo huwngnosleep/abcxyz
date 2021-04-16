@@ -1,0 +1,16 @@
+một không gian con của Rn phải thỏa mãn 3 điều kiện
+- chứa vector 0
+- đóng với phép cộng (closed under addition)
+    tức là lấy một vài vector trong không gian đấy cộng với nhau
+    thì vector tạo thành vẫn phải nằm bên trong không gian đó
+        a in V
+        b in V
+        => a + b in V
+- đóng với phép nhân (closed under multiple)
+    lấy đại một vector rồi scale up nó lên bao nhiêu lần
+    thì vẫn phải thuộc không gian đó
+
+một cơ sở của không gian con là tập hợp các vector độc lập tt tạo ra tất cả các vector trong không gian đó
+tất cả các vector trong cơ sở đều là cần thiết, không có cái nào thừa
+
+số các vector trong cơ sở là số chiều
