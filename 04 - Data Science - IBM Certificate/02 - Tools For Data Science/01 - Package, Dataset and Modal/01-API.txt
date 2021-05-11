@@ -1,0 +1,4 @@
+Application Programing Interface - hiểu đơn giản là các phương pháp giúp một chương trình 
+giao tiếp với các chương trình khác để gửi và nhận cái gì đó
+
+REST API - REpresentational State Transfer APIs là API sử dụng request - response để truyền và nhận dữ liệu

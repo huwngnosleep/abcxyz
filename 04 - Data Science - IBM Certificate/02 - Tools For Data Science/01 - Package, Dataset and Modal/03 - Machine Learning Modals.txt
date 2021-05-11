@@ -1,0 +1,33 @@
+
+Có 3 kiểu train modal
+
+    - Supervised Learning
+        Data được labeled, mỗi input sẽ có output tương ứng,
+        Modal sẽ phải tìm ra sự liên quan giữa input và output đó
+        
+        Thường dùng để giải regression và classification
+
+    - Unsupervised Learning
+        Data không được labeled, Modal sẽ tự làm mà không cần sự giúp đỡ nào
+        Chỉ phán đoạn dựa trên đặc điểm của data
+
+        Thường dùng để giải clustering and anomaly detection
+
+    - Reinforcement Learning
+        Gần giống với quá trình học của con người, 
+        sẽ liên tục thử cho tới khi tìm ra phương pháp tốt nhất
+
+Deep Learning 
+    là cố gắng mô phỏng lại cách não người hoạt động
+
+    Thường dùng để
+        - Natural Language Processing
+        - Media Analysis
+        - Time Series Forecasting
+
+    Deep Learning modal thường build từ các framework
+        - Tensorflow
+        - Pytorch
+        - Keras
+    Hoặc download từ các repo
+        ONNX modal zoo

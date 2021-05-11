@@ -1,0 +1,20 @@
+DDL (Data Definition Language) statements:
+    Define, change or drop data
+
+DDL là thao tác với table (entity)
+
+- CREATE: create table and define its column
+- ALTER: add, drop columns and modify data types
+- TRUNCATE: delete data in the table but not the table
+- DROP: delete the table
+
+DML (Data Manipulation Language) statements:
+    Read and modify data
+    CRUD operations (Create, Read, Update and Delete rows)
+
+DML là thao tác với data trong cái table
+
+- INSERT
+- SELECT
+- Update
+- DELETE

@@ -1,0 +1,2 @@
+Kernel là engine để chạy được file code trên Jupyter lab
+Khi mở project với ngôn ngữ nào, tự cái Kernel tương ứng sẽ được chạy

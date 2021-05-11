@@ -1,0 +1,2 @@
+Calculus chỉ đơn giản là nghiên cứu về việc function thay đổi theo các input của nó
+Và những cách để thao tác với hàm đó

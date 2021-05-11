@@ -1,0 +1,13 @@
+- SSH Protocal: một method cho secure login từ máy này sang máy khác
+- Pull Request: Là quá trình yêu cầu ai đó approve changes của mình trước khi nó trở thành final
+
+Basic Git command
+- init
+- add: cho các changes từ working directory sang staging area
+- status: xem state của working directory và staged snapshot
+- commit: lấy tất cả staged snapshot of changes và commit lên project
+- reset: undo changes
+- log: xem các thay đổi trước đây
+- branch: tạo một nhánh khác
+- checkout: xem và thay đổi các branch
+- merge: hợp tất cả branch lại

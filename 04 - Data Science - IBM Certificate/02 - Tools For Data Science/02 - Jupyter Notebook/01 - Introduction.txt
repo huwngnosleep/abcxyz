@@ -1,0 +1,4 @@
+Jupyter notebook dùng để record lại quá trình làm việc
+có thể export ra các loại file PDF, HTML
+
+Jupyter Lab là webapp tổng hợp các notebook 

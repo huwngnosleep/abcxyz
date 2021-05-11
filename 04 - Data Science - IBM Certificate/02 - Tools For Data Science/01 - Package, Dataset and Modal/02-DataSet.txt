@@ -1,0 +1,15 @@
+Dataset đơn giản chì là a collection of data
+Tabular Data: CSV file
+
+Some open source of data
+    - Open data portal list from all over the world
+        datacatalogs.org
+    
+    - Governmental, intergovernmental and organizations
+        data.un.org (United Nations)
+        data.gov (USA)
+        europeandataportal.eu/en/ (EU)
+    - Kaggle
+        kaggle.com/datasets
+    - Google
+        datasetsearch.research.google.com

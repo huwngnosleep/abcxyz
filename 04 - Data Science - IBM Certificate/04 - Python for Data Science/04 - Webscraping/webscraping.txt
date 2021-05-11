@@ -1,0 +1,4 @@
+bản chất của Webscraping là thay vì ngồi copy data của từng trang web về 
+thì sẽ dùng script để làm nó automatic hơn
+
+đơn giản nhất là sử dụng 2 thư viện Requests và Beautiful Soup

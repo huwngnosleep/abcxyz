@@ -1,0 +1,2 @@
+Khi đã test ở child branch xong rồi thì mình sẽ gọi pull request 
+để mọi người khác trong team merge code vào của họ
