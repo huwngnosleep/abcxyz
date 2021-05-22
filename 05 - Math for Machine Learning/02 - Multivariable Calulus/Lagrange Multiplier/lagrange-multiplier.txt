@@ -1,0 +1,3 @@
+ứng dụng của lagrange multiplier là để tìm cực trị có điều kiện
+
+cho f, cho g => giải grad f = lamda x grad g

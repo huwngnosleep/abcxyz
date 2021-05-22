@@ -1,0 +1,5 @@
+Variance (phương sai) - là trung bình tổng bình phương của từng phần tử đến mean 
+Variance thể hiện sự phân bố (Spread) của các phần tử quanh Mean value
+
+căn hai của Variance gọi là Standard Deviation (độ lệch chuẩn)
+khi nói đến Spread thì thường sẽ xét đến độ lệch chuẩn

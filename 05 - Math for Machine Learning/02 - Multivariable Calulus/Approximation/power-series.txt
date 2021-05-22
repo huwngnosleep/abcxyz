@@ -1,0 +1,6 @@
+Taylor series và Maclaurin series sử dụng để tính gần đúng
+chỉ cần xác định được tất cả các yếu tố của hàm tại một điểm
+thì sẽ có thể dựng lại được toàn bộ hàm đó
+
+Maclaurin dùng để tính tại điểm 0
+còn Taylor sử dụng khi đi ra xa điểm 0

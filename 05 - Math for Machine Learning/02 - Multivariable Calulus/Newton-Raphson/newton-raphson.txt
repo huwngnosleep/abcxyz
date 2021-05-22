@@ -1,0 +1,2 @@
+root là điểm mà tại đó function = 0 (hay chính là nghiệm)
+newton-raphson là phương pháp đệ quy để tính root (tìm nghiệm) của function từ một điểm ban đầu

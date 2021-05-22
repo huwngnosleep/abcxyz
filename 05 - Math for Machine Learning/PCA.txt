@@ -1,0 +1,1 @@
+PCA là kĩ thuật để giảm chiều của data sao cho xảy ra ít mất mát data nhất
