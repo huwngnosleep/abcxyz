@@ -1,9 +1,0 @@
-gọi là linear combination vì chỉ đơn giản là cộng thêm các vector vào
--> linear
-
-span(a, b) là tập tất cả các vector mà linear combination của a và b có thể tạo ra được
-a(1, 2), b(0, 3)
-
-span(a, b) = R2
-
-span(v1, v2, ..., vn) = {c1v1 + c2v2 + ... + cnvn / c thuộc R}
