@@ -1,0 +1,5 @@
+Stream là quá trình một request được handle
+Body của request sẽ được chia thành nhiều phần để handle
+tuy nhiên một số request cần thời gian lâu hơn để handle, ví dụ như là ghi file
+nên Buffer là việc giữ một phần của request lại, trong lúc đó lại handle request khác
+để quá trình xử lí của server nhanh hơn

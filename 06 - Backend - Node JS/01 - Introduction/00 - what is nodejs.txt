@@ -1,0 +1,3 @@
+bản thân javascript là ngôn ngữ chỉ chạy được trên trình duyệt,
+nhưng nhờ có nodejs thì có thể khiến javascript chạy được ở trên máy tính
+nodejs sử dụng javscript engine V8, viết bởi google để compile code javscript
