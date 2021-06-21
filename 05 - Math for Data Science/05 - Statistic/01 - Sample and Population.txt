@@ -1,0 +1,8 @@
+Population là toàn bộ tập dữ liệu
+nhưng để tính toán với Population trong thực tế sẽ rất khó
+nên mới sinh ra cách tính toán với Sample
+là chọn một nhóm nhỏ đại diện cho toàn tập
+
+một Sample tốt cần phải đảm bảo 2 yêu tốt
+    - Ngẫu nhiên
+    - Đại diện cho toàn tập
