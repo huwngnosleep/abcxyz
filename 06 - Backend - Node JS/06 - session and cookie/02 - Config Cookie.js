@@ -1,0 +1,1 @@
+res.setHeader('Set-Cookie', 'loggedIn=true', HttpOnly...)

@@ -1,0 +1,3 @@
+cookie để lưu một mẩu data ở bên phía client, thường là id
+bản chất cookie ở web giống với store trong app
+ở bên phía server sẽ là session, được lưu trong database, dùng để validate cái cookie gửi lên
