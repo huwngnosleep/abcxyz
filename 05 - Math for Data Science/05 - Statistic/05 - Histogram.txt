@@ -1,0 +1,4 @@
+there're many way to construct histogram
+intervals are not must be equally divided
+
+sometime ralative histogram come to better result than absolute histogram

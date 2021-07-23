@@ -1,0 +1,1 @@
+usually we divide dataset into 5 upto 20 interval because in those interval usually come to valuable result

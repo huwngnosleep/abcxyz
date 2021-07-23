@@ -1,0 +1,6 @@
+some ways to visualize data
+
+1, Table
+2, Bar Chart
+3, Pie Chart
+4, Diagram

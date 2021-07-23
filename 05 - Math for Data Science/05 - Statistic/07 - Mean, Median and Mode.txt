@@ -1,0 +1,8 @@
+- Mean can be strong affected by outliers
+
+- Mediam is calculated by the middle index of the dataset
+
+- Mode is the feature appears most of the time
+
+sometime the three method is equally good, no one is the best
+but if only used alone sometime there can be the worst
