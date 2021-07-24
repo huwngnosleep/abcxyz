@@ -1,0 +1,5 @@
+Covariance refers to the direction of variables
+
+> 0 - two variables move together
+< 0 - two variables move in opposite directions
+= 0 - two variables are independent

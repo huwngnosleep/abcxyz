@@ -1,0 +1,5 @@
+Standard Deviation shows the spread of the dataset
+
+Coefficient of Variation show the ralative between other member of set to the mean
+
+Coefficient can be used to compare the spread between two datasets
