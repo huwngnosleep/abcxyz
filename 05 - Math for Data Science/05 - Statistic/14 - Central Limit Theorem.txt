@@ -1,0 +1,2 @@
+Central limit theorem state that no matter form the distribution is
+the distribution its distribution's means will be a normal distribution 

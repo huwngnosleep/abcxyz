@@ -1,0 +1,5 @@
+Exploratory Data Analysis (EDA) is to 
+- summarize the main characteristic of the data
+- Gain better understanding of the data set
+- Find the relationship between variables
+- Extract the important variable 

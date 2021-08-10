@@ -1,0 +1,2 @@
+Data formatting is to bring data to a standart form
+ex: N.York, N.Y, NYC, -> New York

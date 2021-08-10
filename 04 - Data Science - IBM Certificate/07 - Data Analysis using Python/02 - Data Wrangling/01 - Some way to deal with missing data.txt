@@ -1,0 +1,10 @@
+- Drop the missing value
+	Drop the table
+	Drop the data entry
+
+- Replace the missing value
+	Replace it with an average
+	Replace it by frequency
+	Replace it base on other functions
+
+- Leave it as missing data
