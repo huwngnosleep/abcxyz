@@ -1,0 +1,14 @@
+1NF
+ - No repeating columns of the same data
+ - each attribute should contain  a single value
+ - must have a primary key
+
+2NF
+ - All non-key attributes are fully functional depenent on the primary key
+
+3NF
+ - No transitive dependencies (phụ thuộc hàm bắc cầu)
+
+BCNF
+ - For any dependency A -> B
+ A should be a super key

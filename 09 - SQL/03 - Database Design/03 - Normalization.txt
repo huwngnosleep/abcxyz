@@ -1,0 +1,7 @@
+on database design, sometime we will meet some abnomalies or duplicating data. We must reduce them
+
+normalization can be done
+
+to do normalization we must understand two things
+- functional dependency
+- normal form

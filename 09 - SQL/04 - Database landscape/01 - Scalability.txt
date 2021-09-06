@@ -1,0 +1,9 @@
+1 - Vertical Scale
+	- It's about improve the power of hardware (adding more dispace, using more powerful CPU, ...)
+
+	- Having physical limitation (datacenture, price)
+
+2 - Horizontal Scale
+	- Adding more database
+
+	- Making those database communacated with each other consistantly is hard

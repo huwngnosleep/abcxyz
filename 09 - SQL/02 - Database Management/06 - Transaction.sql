@@ -1,0 +1,5 @@
+-- all action to the database will be wrapped by a transaction
+-- when multiple transaction happen simutanously, the database will lock the resouces
+-- all transaction will be executed respectively
+-- the resouces will be lock until a transaction is commited or rollbacked
+-- and it make the database persist

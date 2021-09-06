@@ -1,0 +1,3 @@
+Replication is just horizontal scaling and a backup strategy
+
+we have some computer carrying the same ammount of data

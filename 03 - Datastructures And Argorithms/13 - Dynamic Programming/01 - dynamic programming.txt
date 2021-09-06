@@ -1,0 +1,1 @@
+dynamic programming is a technique to optimize for recursive algorithm, using memorization (cache) to reduce the number of calculation 

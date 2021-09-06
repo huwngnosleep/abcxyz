@@ -1,0 +1,11 @@
+functional dependency happens when some attribute can be defined by another attribute
+
+if A -> B so that A can only have one B
+
+student_id ---> birth_day
+
+we can say that each student_id have only one birth_day
+so that this is a functional dependency
+
+while birth_day ---> student_id
+we can have multiple student with the same birth_day, so student_id is not dependent on birth_day
