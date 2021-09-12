@@ -1,0 +1,9 @@
+// insertMany takes an array as an argument
+db.flightData.insertMany([
+	{
+		name: "1"
+	},
+	{
+		name: "2"
+	}
+])

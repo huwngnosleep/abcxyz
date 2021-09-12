@@ -1,0 +1,9 @@
+// delete one
+db.collections1.deleteOne({name: "1"})
+
+// update
+// $ implifys that behind it will be an operator
+db.flightData.updateOne({distance: 12000}, {$set{marker: "delete"}})
+
+// delete many
+db.flightData.deleteMany({marker: "toDelete"})

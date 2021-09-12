@@ -1,0 +1,17 @@
+first: need to start mongodb server
+// mongod
+
+config port to run server:
+// mongod --port 20000
+
+then open another terminal, open a shell connect to that server
+// mongo
+
+config port that the server running in, default 27017
+// mongo --port 27018
+
+show database:
+// show dbs
+
+switch database, if not exists, that database will be created by demand
+use dbname

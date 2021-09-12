@@ -1,0 +1,6 @@
+get data
+db.flightData.find() // return all documents
+
+db.flightData.find().pretty() // return all documents in formated
+
+db.flightData.insertOne({name: "huwngdepzai"})
