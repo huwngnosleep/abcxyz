@@ -1,0 +1,14 @@
+here is some solution to avoid being banned by the server
+
+1, add a delay between each request
+-> use DOWNLOAD_DELAY in setting.py
+
+ex: DOWNLOAD_DELAY = 5 -> delay 5 seconds
+but this sulution is not suitable for project with many spiders
+
+2, HTTP CACHE
+enable in setting.py
+
+the request to the same url will be stored locally, so scrapy will check and get the response instead of fetching new requests
+
+3, use random user-agent for each request
