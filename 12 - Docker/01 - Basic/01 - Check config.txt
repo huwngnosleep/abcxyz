@@ -1,0 +1,8 @@
+check current version:
+docker version
+
+check current info, image running:
+docker info
+
+command format:
+docker <command> <sub-command> (options)

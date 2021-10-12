@@ -11,6 +11,7 @@ docker container run --publish 80:80 nginx
 
 run container and return the container id
 docker container run --publish 80:80 --detach nginx
+--detach: run in background
 
 run container with a specific name
 docker container run --publish 80:80 --detach --name webhost nginx

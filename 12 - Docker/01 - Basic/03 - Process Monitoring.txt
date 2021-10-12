@@ -1,0 +1,8 @@
+view all process of that container 
+docker container top mysql
+
+view config
+docker container inspect mysql
+
+view all process stats of all container (RAM, MEM usage, CPU, ...)
+docker container stats
