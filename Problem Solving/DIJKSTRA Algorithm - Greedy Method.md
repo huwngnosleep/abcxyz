@@ -1,6 +1,6 @@
 ### Nguyên tắc của Greedy rất đơn giản: cứ đường ngắn nhất mà chọn
 
-### DIJKSTRA Algorithm là thuật toán giải quyết nhược điểm của Greedy - là bỏ không suy nghĩ tới các điểm sau
+### DIJKSTRA Algorithm là thuật toán giải quyết nhược điểm của Greedy - là việc không suy nghĩ tới các điểm sau
 
 ## Ý tưởng thuật toán: lần lượt tìm các đường ngắn nhất từ từng điểm tới điểm đích
 
