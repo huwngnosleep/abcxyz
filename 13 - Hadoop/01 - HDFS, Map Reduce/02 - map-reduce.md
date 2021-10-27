@@ -16,7 +16,7 @@ Each process can be distributed to some computer in the cluster
 
 Simple Map - Reduce code
 
-`
+```
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 
@@ -35,4 +35,4 @@ class RatingsBreakdown(MRJob):
 
 if __name__ == '__main__':
     RatingsBreakdown.run()
-`
+```
