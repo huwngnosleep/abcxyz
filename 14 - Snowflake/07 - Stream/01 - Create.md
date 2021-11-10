@@ -1,5 +1,9 @@
 ### stream can listen and hold changes on a table
 
+### there are two mode of stream: DEFAULT and APPEND_ONLY
+
+append_only stream get only insert operation
+
 ```
 // create a stream object
 create or replace stream sales_stream on table sales_raw_staging;
