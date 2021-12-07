@@ -31,7 +31,7 @@ def lomuto_partition(arr):
     j = 1
     n = len(arr) - 1
     x = arr[n]
-    while(j < n - 1):
+    while(j <= n - 1):
         if(arr[j] < x):
             swap(arr, i + 1, j)
             i = i + 1
@@ -45,6 +45,7 @@ def quick_select(arr, k):
     n = len(arr)
 
     j = lomuto_partition(arr)
+    print('j', j)
 
     if(j == k):
         return arr[j]
@@ -55,5 +56,5 @@ def quick_select(arr, k):
     if(j < k):
         return quick_select(arr[j + 1: n], k - j)
 
-print(quick_select([3, 1, 7, 8, 4, 10, 9, 5], 2))
+print(quick_select([3, 1, 7, 8, 4, 10, 9, 5], 1))
 ```
