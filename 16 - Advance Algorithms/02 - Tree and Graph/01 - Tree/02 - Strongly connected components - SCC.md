@@ -27,4 +27,4 @@ The transpose of adjacency matrix is the reverse version of graph. It must have 
 
 **We can use this property to detect cycle in graph**
 
-![mscc-transpose](mscc-transpose.png)
+![mscc-transpose](mscc-transpose.p)
