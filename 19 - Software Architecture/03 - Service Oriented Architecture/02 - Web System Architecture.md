@@ -1,0 +1,1 @@
+![web-system-architecture](web-system-architecture.png)
