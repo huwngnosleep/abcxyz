@@ -3,3 +3,5 @@
 ![normalize](normalize.png)
 
 # When all features have the same scale, our algorithm takes less time to run because it can make more constant step
+
+![normalize-2](normalize-2.png)
