@@ -1,0 +1,1 @@
+![rnn-model](rnn-model.png)
