@@ -1,0 +1,1 @@
+![disk-access-latency](disk-access-latency.png)
